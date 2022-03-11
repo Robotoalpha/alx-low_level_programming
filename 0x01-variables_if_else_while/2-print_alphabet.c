@@ -12,7 +12,7 @@ int main(void)
 {
 	
 /* print alphabet in lowercase letters */
-	char ch = "a";
+	char* ch = "a";
 	while (ch <= "z")
 	{	
 		putchar(ch);
