@@ -5,8 +5,9 @@
 
 /* betty style doc for function main goes there */
 /**
- * Description: Get a random number and print the number
- * and if the number is positive, negative or zero
+ *main-Entry point
+ * Description: get a random number print
+ * if it is positive, negative or zero
  * return: Always 0 (success
  */
 int main(void)
