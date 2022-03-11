@@ -10,12 +10,12 @@
 */
 int main(void)
 {
-	int *ch;
+	int alphabet;
 	int clrscr();
 /* print alphabet in lowercase letters */
 	
-	for (ch ="a", ch <= "z", ch++)
-	putchar(ch++);
+	for (ch ="a", ch <= "z", alphabet++)
+	putchar(alphabet);
 	putchar("\n");
 	getch();
 	return (0);
