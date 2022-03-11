@@ -3,19 +3,21 @@
 #include <ctype.h>
 
 /**
-* main-Entry point
-*
-* Return: Always 0 (success)
+* main-block
+* Description: the for boucle will print 
+*alphat in lower case wile ch different to z
+* Return: 0 success
 */
 int main(void)
 {
-	Char ch;
+	int ch;
 
 /* print alphabet in lowercase letters */
 	
-	while (ch<= "z")
-		putchar(ch++);
-		putchar("\n");
+	for (ch ="a", ch <= "z", ch++)
+	putchar(ch++);
+	putchar("\n");
+	getch();
 	return (0);
 	
 }
