@@ -5,7 +5,7 @@
 
 /* betty style doc for function main goes there */
 /**
- *main-Entry point
+ *main-block
  * Description: get a random number print
  * if it is positive, negative or zero
  * return: Always 0 (success
