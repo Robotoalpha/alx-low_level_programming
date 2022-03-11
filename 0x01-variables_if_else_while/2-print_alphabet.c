@@ -10,9 +10,9 @@
 */
 int main(void)
 {
-	char *alphabet;
+	char *ch = alphabet;
 /* print alphabet in lowercase letters */
-	for (alphabet ="a", alphabet <= "z", alphabet++)
+	for (ch ="a", ch <= "z", ch++)
 	putchar(alphabet);
 	putchar("\n");
 	getch();
