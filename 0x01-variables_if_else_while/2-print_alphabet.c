@@ -10,8 +10,8 @@
 */
 int main(void)
 {
-	int ch;
-
+	int *ch;
+	clrscr();
 /* print alphabet in lowercase letters */
 	
 	for (ch ="a", ch <= "z", ch++)
