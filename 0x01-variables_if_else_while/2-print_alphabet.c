@@ -9,7 +9,7 @@
 */
 int main(void)
 {
-	char ch = "a";
+	char ch;
 
 /* print alphabet in lowercase letters */
 	
