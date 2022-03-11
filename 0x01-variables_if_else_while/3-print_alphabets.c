@@ -9,14 +9,19 @@
  */
 int main(void)
 {
-	char ch = "a", CH = "A";
-	while (ch <= "z" && CH <= "Z")
+	char a = "a";
+	char A = "A";
+	int n = 0;
+	while (n <= 52)
 	{
-		putchar(ch);
+		if (n <= 26)
+			putchar(a);
+		else 
+			putchar(A);
+	}			
 		putchar("\n");
-		putchar(CH);
-	}
-			ch++;
-			CH++;
+			a++;
+			A++
+			n++	
 	return(0);
 }	
