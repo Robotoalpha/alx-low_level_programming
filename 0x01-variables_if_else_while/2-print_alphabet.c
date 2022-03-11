@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 /**
 * main-Entry point
 *
 * Return: Always 0 (success)
 */
-main(void)
+int main(void)
 {
 	char ch;
-	clrscr();
 
 /* print alphabet in lowercase letters */
 	
@@ -17,4 +17,6 @@ main(void)
 		putchar(ch);
 		putchar("\n");
 		getch();
+	return (0);
+	
 }
