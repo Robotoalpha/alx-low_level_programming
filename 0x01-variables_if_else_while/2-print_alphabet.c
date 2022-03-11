@@ -8,7 +8,7 @@
 */
 main(void)
 {
-	int ch;
+	char ch;
 	clrscr();
 
 /* print alphabet in lowercase letters */
