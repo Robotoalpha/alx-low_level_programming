@@ -8,7 +8,7 @@
  *main-block
  * Description: get a random number print
  * if it is positive, negative or zero
- * return: Always 0 (success
+ * Return: 0 for success.
  */
 int main(void)
 {
