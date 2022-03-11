@@ -10,10 +10,11 @@
 */
 int main(void)
 {
+	char alphabet;
 	char *ch = alphabet;
 /* print alphabet in lowercase letters */
 	for (ch ="a", ch <= "z", ch++)
-	putchar(alphabet);
+	putchar(ch);
 	putchar("\n");
 	getch();
 	return (0);
