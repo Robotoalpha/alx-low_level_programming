@@ -10,13 +10,15 @@
 */
 int main(void)
 {
-	char alphabet;
-	char *ch = alphabet;
+	
 /* print alphabet in lowercase letters */
-	for (ch ="a", ch <= "z", ch++)
-	putchar(ch);
+	char ch = "a"
+	while (ch <= "z")
+	{	
+		putchar(ch);
+		ch++;
+	}
 	putchar("\n");
-	getch();
 	return (0);
 	
 }
