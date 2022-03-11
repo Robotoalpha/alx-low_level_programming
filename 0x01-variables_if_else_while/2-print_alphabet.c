@@ -9,14 +9,13 @@
 */
 int main(void)
 {
-	char ch;
+	char ch = "a";
 
 /* print alphabet in lowercase letters */
 	
-	for (ch= "a" ; ch<= "z" ; ch++)
-		putchar(ch);
+	while (ch<= "z")
+		putchar(ch++);
 		putchar("\n");
-		getch();
 	return (0);
 	
 }
