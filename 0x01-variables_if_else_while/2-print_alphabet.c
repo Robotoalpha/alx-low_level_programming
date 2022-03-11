@@ -11,7 +11,7 @@
 int main(void)
 {
 	int *ch;
-	clrscr();
+	int clrscr();
 /* print alphabet in lowercase letters */
 	
 	for (ch ="a", ch <= "z", ch++)
