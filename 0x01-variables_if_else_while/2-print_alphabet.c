@@ -1,22 +1,19 @@
 #include <stdio.h>
-
 /**
-* main-block
-* Description: the for boucle will print 
-*alphat in lower case wile ch different to z
-* Return: 0 success
-*/
+ * main - main block
+ * Description: Use `putchar` function to print the alphabet in lowercase.
+ * Return: 0
+ */
 int main(void)
 {
-	
-/* print alphabet in lowercase letters */
-	char* ch = "a";
-	while (ch <= "z")
-	{	
-		putchar(ch);
-		ch++;
+	char c = 'a';
+
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
 	}
-	putchar("\n");
+	putchar('\n');
+
 	return (0);
-	
 }
