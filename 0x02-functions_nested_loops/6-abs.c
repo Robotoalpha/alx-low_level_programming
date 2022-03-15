@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * function _abs-calcul la valeur absolue
- * d'un entier 
- *@argument de _abs est 'n'
- * Return value : this function return always
- *as value 0 or possitive value.
+ *_abs - absolute value of a number.
+ *@n: input.
+ *
+ *Return: absolute value
+ *
  */
 int _abs(int n)
 {
