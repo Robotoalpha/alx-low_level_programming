@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 /**
  * print_alphabet_x10-abcd
  * Description of function print_alphabet_x10:
