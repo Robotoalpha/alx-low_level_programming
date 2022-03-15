@@ -7,7 +7,6 @@
  */
 int _abs(int n)
 {
-int n;
 int valeurAbsolue;
 if (n > 0)
 {
@@ -16,7 +15,7 @@ return (valeurAbsolue);
 }
 else if (n == 0)
 {
-valeurAbsolue == 0;
+valeurAbsolue = 0;
 return (valeurAbsolue);
 }
 else
