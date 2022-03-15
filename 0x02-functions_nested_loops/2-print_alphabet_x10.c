@@ -1,7 +1,4 @@
-include <stdio.h>
-include <stdlib.h>
 include "main.h"
-
 /**
  * print_alphabet_x10-abcd
  * Description of function print_alphabet_x10:
