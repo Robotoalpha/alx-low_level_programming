@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/**main-prints putchar followed by a new line
+/**main-prints _putchar followed by a new line
  *
  *Return: always 0 for success
  */
 
-int main() 
+int main(void) 
 {
 	putchar('_');
 	putchar('p');
