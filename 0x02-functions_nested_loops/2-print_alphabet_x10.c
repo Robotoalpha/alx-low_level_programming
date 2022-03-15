@@ -1,8 +1,8 @@
-nclude "main.h"
+include "main.h"
 
 /**
  * print_alphabet_x10-abcd
-   Description of function print_alphabet_x10:
+ * Description of function print_alphabet_x10:
  * this function print alphabet in lower case ten times
  * 
  *  Return: Always retur 0 for success
