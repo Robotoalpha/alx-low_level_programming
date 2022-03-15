@@ -6,7 +6,7 @@
  *Return: always 0 for success
  */
 
-void main() 
+int main() 
 {
 	putchar('_');
 	putchar('p');
@@ -20,3 +20,4 @@ void main()
 
 return (0);
 }
+
