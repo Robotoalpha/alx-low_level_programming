@@ -5,17 +5,17 @@
  *
  * Return : 0 always success
  */
-int _abs(int)
+int _abs(int n)
 {
 int n;
 int valeurAbsolue;
 if (n > 0)
 {
-valeurAbsolue == n;
+valeurAbsolue = n;
 return (valeurAbsolue);
 }
-else if (n == 0);
-[
+else if (n == 0)
+{
 valeurAbsolue == 0;
 return (valeurAbsolue);
 }
