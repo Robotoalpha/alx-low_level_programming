@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * print_alphabet_x10-abcd
  * Description of function print_alphabet_x10:
@@ -8,15 +8,16 @@
  */
 void print_alphabet_x10(void)
 {
-char c = 'a';
-int i;
-while (c <= 'z')
+char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
+int i , j;
+ j = 0;
+while (j <= 26)
 {
 i = 0;
 while (i <= 10)
 {
-_putchar(c);
-c++;
+_putchar(alphabet[j]);
+j++;
 }
 _putchar('\n');
 i++;
