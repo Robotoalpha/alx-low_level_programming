@@ -1,8 +1,8 @@
 #include "main.h"
 
-/***
- *  main-Entry point 
- *  Description of function print_alphabet: 
+/**
+ *  main-Entry point
+ *  Description of function print_alphabet:
  *  this function print alphabet in lower case
  *
  *   Return: Always retur 0 for success
