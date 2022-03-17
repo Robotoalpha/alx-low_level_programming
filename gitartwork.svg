@@ -1,4 +1,4 @@
- name: gitartwork from a contribution graph
+name: gitartwork from a contribution graph
  on: 
    push:
    schedule:
@@ -10,10 +10,10 @@
      runs-on: ubuntu-latest
      steps:
        - uses: actions/checkout@v2
-       - uses: Robotoalpha/gitartwork@v1
+       - uses: jasineri/gitartwork@v1
          with:
             # Use this username's contribution graph  
-            user_name: Robotoalpha
+            user_name: jasineri
             # Text on contribution graph 
-            text: ROBOTOALPHA
-       - uses: Robotoalpha/simple-push-action@v1
+            text: JASINERI
+       - uses: jasineri/simple-push-action@v1
