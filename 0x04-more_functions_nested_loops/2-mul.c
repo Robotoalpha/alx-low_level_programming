@@ -1,7 +1,15 @@
-#include <stdio.h>
 #includ "main.h"
+/**
+ *mul - multiplies two ints.
+ *@a: integer.
+ *@b: integer.
+ *
+ *Return: product.
+ */
+int mul(int a, int b)
+{
+	int product;
 
-int mul(int a, int b);
-
-return (a * b) ;
-
+	product = a * b;
+	return (product);
+}
