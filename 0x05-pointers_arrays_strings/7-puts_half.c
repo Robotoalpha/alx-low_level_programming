@@ -1,22 +1,35 @@
-#include "main.h"
+#include "holberton.h"
 /**
- *puts2 - prints very other character in string.
+ *puts_half - prints half of a string.
  *@str: pointer to string.
  *
  *Return: void.
  */
-void puts2(char *str)
+void puts_half(char *str)
 {
-	int i;
+	int n, length, mid;
 
-	i = 0;
-	while (str[i] != '\0')
+	length = 0;
+	while (str[length] != '\0')
 	{
-		if (i % 2 == 0)
+		length++;
+	}
+
+	if (length % 2 == 0)
+	{
+		mid = length / 2;
+		for (n = mid; n < length; n++)
 		{
-			_putchar(str[i]);
+			_putchar(str[n]);
 		}
-		i++;
+	}
+	else
+	{
+		mid = (length - 1) / 2;
+		for (n = mid + 1; n < length; n++)
+		{
+			_putchar(str[n]);
+		}
 	}
 	_putchar('\n');
 }
