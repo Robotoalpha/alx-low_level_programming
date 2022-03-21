@@ -5,16 +5,15 @@
  *
  *Return: lengh of a string.
  */
- 
  int _strlen(char *s)
  {
-        int i;
+int i;
         
-        i = 0;
-        while (*s != '\0')
-        {
-              i++;
-              s++;
-         }
-          return (i);
- }
+i = 0;
+while (*s != '\0')
+{
+i++;
+s++;
+}
+return (i);
+}
