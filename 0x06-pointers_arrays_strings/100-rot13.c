@@ -5,7 +5,7 @@
  *
  *Return: pointer to encoded string.
  */
-char *rot13(char *s)
+char *rot13(char *);
 {
 	int stringCount, rotation;
 	char r1[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',
