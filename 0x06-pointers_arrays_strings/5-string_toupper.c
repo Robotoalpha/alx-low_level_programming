@@ -21,5 +21,4 @@ char *string_toupper(char *x)
 	}
 	return (x);
 }
-© 2022 GitHub, Inc.
 
