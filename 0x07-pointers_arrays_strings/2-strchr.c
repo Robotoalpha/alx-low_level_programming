@@ -26,4 +26,3 @@ char *_strchr(char *s, char c)
 	}
 	return (p);
 }
-© 2022 GitHub, Inc.
