@@ -1,3 +1,8 @@
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include "main.h"
+
 /**
  * main - check the code
  *
