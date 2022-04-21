@@ -1,8 +1,8 @@
-#ifndef LISTS_H
-#define LISTS_H
+#ifndef MAIN_H
+#define MAIN_H
 
 /*
- * File: lists.h
+ * File: main.h
  * Desc: Header file containing prototypes and definitions for all functions
  *       and types written in the 0x11-singly_linked_lists directory.
  */
@@ -31,4 +31,4 @@ list_t *add_node(list_t **head, const char *str);
 list_t *add_node_end(list_t **head, const char *str);
 void free_list(list_t *head);
 
-#endif /* LISTS_H */
+#endif /* MAIN_H */
